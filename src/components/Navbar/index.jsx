@@ -19,9 +19,10 @@ function Navbar() {
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             <Link
-              to="/"
+              to="/about"
               className={
                 window.location.pathname === "/" ||
+                window.location.pathname === "/about" ||
                 window.location.pathname === "/React-Portfolio/"
                   ? "nav-link active"
                   : "nav-link"
