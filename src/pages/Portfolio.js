@@ -48,7 +48,7 @@ function Portfolio() {
             <img
               src={require("../img/wuphf.png")}
               class="portPic"
-              alt="Wanderdog"
+              alt="Wuphf"
             />
           </div>
 
@@ -77,6 +77,135 @@ function Portfolio() {
                 aria-label="homepage"
               >
                 Click here to visit the Deployed Site
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12 col-lg-6">
+            <img
+              src={require("../img/employee-tracker.gif")}
+              class="portPic"
+              alt="Employee Tracker"
+            />
+          </div>
+
+          <div className="col-sm-12 col-lg-6 textBox">
+            <p>
+              A solution for managing a company's employees using node.js,
+              inquirer, and MySQL. This Content Management System will allow
+              Admins to add and view employees, departments, and roles. The
+              Admin will also be able to update employees roles and assigned
+              manager.
+              <br />
+              <a
+                href="https://github.com/JayDub21/employee-tracker"
+                aria-label="homepage"
+              >
+                Click here to visit the Repository
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12 col-lg-6">
+            <img
+              src={require("../img/teamGen.gif")}
+              class="portPic"
+              alt="Team Generator"
+            />
+          </div>
+
+          <div className="col-sm-12 col-lg-6 textBox">
+            <p>
+              A software engineering team generator command line application.
+              The application will prompt the user for information about the
+              team manager and then information about the team members. The user
+              can input any number of team members, and they may be a mix of
+              engineers and interns. When the user has completed building the
+              team, the application will create an HTML file that displays a
+              nicely formatted team roster based on the information provided by
+              the user.
+              <br />
+              <a
+                href="https://github.com/JayDub21/template-engine--team-gen"
+                aria-label="homepage"
+              >
+                Click here to visit the Repository
+              </a>
+              <br />
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12 col-lg-6">
+            <img
+              src={require("../img/nt-action.png")}
+              class="portPic"
+              alt="Note Taker"
+            />
+          </div>
+
+          <div className="col-sm-12 col-lg-6 textBox">
+            <p>
+              An application that can be used to write, save, and delete notes.
+              This application uses an express backend to and save and retrieve
+              note data from a JSON file. For users that need to keep track of a
+              lot of information, it's easy to forget or be unable to recall
+              something important. Being able to take persistent notes allows
+              users to have written information available when needed.
+              <br />
+              <a
+                href="https://github.com/JayDub21/note-taker"
+                aria-label="homepage"
+              >
+                Click here to visit the Repository
+              </a>
+              <br />
+              <a
+                href="https://note-taker-justin-wofford.herokuapp.com/"
+                aria-label="homepage"
+              >
+                Click here to visit the Deployed Site
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12 col-lg-6">
+            <img
+              src={require("../img/profile-gen.png")}
+              class="portPic"
+              alt="Profile Generator"
+            />
+          </div>
+
+          <div className="col-sm-12 col-lg-6 textBox">
+            <p>
+              A command-line application that dynamically generates a PDF
+              profile from a GitHub username. When preparing a report for
+              stakeholders, it is important to have up-to-date information about
+              members of the development team. Rather than navigating to each
+              team member's GitHub profile, a command-line application will
+              allow for quick and easy generation of profiles in PDF format.
+              <br />
+              <a
+                href="https://github.com/JayDub21/Developer-Profile-Generator"
+                aria-label="homepage"
+              >
+                Click here to visit the Repository
               </a>
             </p>
           </div>

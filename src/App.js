@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
-import About from "./pages/About";
+// import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 // import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
