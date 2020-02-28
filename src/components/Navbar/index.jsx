@@ -21,8 +21,7 @@ function Navbar() {
             <Link
               to="/"
               className={
-                window.location.pathname === "/" ||
-                window.location.pathname === "/about"
+                window.location.pathname === "/"
                   ? "nav-link active"
                   : "nav-link"
               }
@@ -31,18 +30,17 @@ function Navbar() {
               About
             </Link>
           </li>
-
-          <li className="nav-item">
-            <a href="portfolio.html" className="nav-link">
-              Portfolio
-            </a>
-          </li>
-
-          <li className="nav-item">
-            <a href="contact.html" className="nav-link">
-              Contact
-            </a>
-          </li>
+          <Link
+            to="/portfolio"
+            className={
+              window.location.pathname === "/portfolio"
+                ? "nav-link active"
+                : "nav-link"
+            }
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            Portfolio
+          </Link>
         </ul>
       </div>
     </nav>

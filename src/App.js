@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
-// import About from "./pages/About";
+import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 // import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
@@ -15,8 +15,8 @@ function App() {
         <Navbar />
         <Wrapper>
           <Switch>
-            {/* <Route exact path="/" component={About} /> */}
-            <Route exact path="/" component={Portfolio} />
+            <Route exact path="/" component={About} />
+            <Route exact path="/portfolio" component={Portfolio} />
             {/* <Route exact path="/contact" component={Contact} />  */}
           </Switch>
         </Wrapper>

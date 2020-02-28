@@ -3,8 +3,8 @@ import "./style.css";
 
 function Footer() {
   return (
-    <div class="icons">
-      <footer class="footer mt-auto py-3">
+    <footer class="footer mt-auto py-3">
+      <div class="container icons">
         <a href="https://github.com/JayDub21" aria-label="homepage">
           <img
             src={require("../../img/ghBlack.png")}
@@ -41,8 +41,8 @@ function Footer() {
             width="30"
           />
         </a>
-      </footer>
-    </div>
+      </div>
+    </footer>
   );
 }
 
