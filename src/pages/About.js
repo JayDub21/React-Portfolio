@@ -6,7 +6,7 @@ function About() {
     <div className="container">
       <div className="row">
         <div className="row">
-          <div className="col-xs-12 col-md-6">
+          <div className="col-md-12">
             <img
               src={require("../img/self.jpg")}
               id="selfie"
@@ -14,7 +14,7 @@ function About() {
             />
           </div>
 
-          <div className="col-xs-12 col-md-6" id="aboutText">
+          <div className="col-md-12" id="aboutText">
             <h3>About Me:</h3>
             <hr />
             <p>
