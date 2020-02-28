@@ -15,6 +15,7 @@ function App() {
         <Navbar />
         <Wrapper>
           <Switch>
+            <Route exact path="/" component={About} />
             <Route exact path="/React-Portfolio/" component={About} />
             <Route exact path="/portfolio" component={Portfolio} />
             {/* <Route exact path="/contact" component={Contact} />  */}
