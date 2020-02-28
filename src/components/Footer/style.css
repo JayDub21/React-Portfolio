@@ -1,0 +1,28 @@
+.icons {
+  margin: auto;
+  border-top: 1.5px solid #212529;
+  background-color: #b6bdc3;
+  align-items: center;
+  height: 60px;
+}
+/* .site-logo {
+  padding-bottom: 5px;
+} */
+
+#gh {
+  transform: translateX(-66.6%);
+  left: 33.3%;
+  position: absolute;
+}
+
+#insta {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+#li {
+  transform: translateX(-33.3%);
+  left: 66.6%;
+  position: absolute;
+}
